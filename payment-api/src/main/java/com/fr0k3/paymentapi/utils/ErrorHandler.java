@@ -15,7 +15,7 @@ public class ErrorHandler {
 
         fieldErrors.stream()
                 .forEach(error -> {
-                    errors.put(error.getField() + "_error", error.getDefaultMessage());
+                    errors.put("message", error.getDefaultMessage());
                 });
 
         return errors;
