@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;500;600;700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.rccs {
+    width: 100%;
+}
+
+.rccs__card {
+    width: 90%;
+    height: 210px;
+    max-width: 350px;
+}
+
+.rccs__chip {
+    height: 30px;
+}
