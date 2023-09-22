@@ -32,7 +32,11 @@ Now you can start using the API which port is 8080 :)
 This frontend was made using the technologies of React and TailwindCSS.
 
 ### How to Run
-In order to run the application you must have installed Node.js and once you have installed Node.js you have to run the following command:
+In order to run the application you must have installed Node.js and once you have installed Node.js you have to run the following command to install the dependencies:
+```
+npm install
+```
+Then you have to run the following command in order to run the frontend application:
 ```
 npm run dev
 ```
